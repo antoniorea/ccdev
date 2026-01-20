@@ -25,3 +25,15 @@ void sum_complex( double m1, double a1, double m2, double a2) {
     std::cout << std::arg(w) * 180 / PI << "  "  << w << std::endl;
     
 }
+
+//Uses iostream:
+void newLine( )
+{
+    using namespace std;
+
+    char nextChar;
+    do
+    {
+        cin.get(nextChar);
+    } while (nextChar != '\n');
+}

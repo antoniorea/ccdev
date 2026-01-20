@@ -22,11 +22,12 @@ int main() {
 
     std::cout << " Introduzca mod y arg del primer num complejo : " ;
     std::cin >> m1 >> a1 ;
-    std::cin.get();
+    newLine();
     
     std::cout << " Introduzca mod y arg del segundo num complejo : " ;
     std::cin >> m2 >> a2;
-    std::cin.get();
+    //std::cin.get();
+    newLine();
    
     sum_complex( m1, a1, m2, a2);
 
