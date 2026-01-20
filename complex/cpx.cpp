@@ -26,14 +26,13 @@ void sum_complex( double m1, double a1, double m2, double a2) {
     
 }
 
-//Uses iostream:
+
 void newLine( )
-{
-    using namespace std;
+{    
 
     char nextChar;
     do
     {
-        cin.get(nextChar);
+        std::cin.get(nextChar);
     } while (nextChar != '\n');
 }
