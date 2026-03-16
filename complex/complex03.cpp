@@ -11,8 +11,6 @@ z1 - z2 :       El modulo de z es :3.61 el argumento z en grados es :33.69      
 #include "cpx.h"
 
 
-
-
 double arr[4]{0.0};
 
 
@@ -23,9 +21,15 @@ int main(int argc, char* argv[]) {
    switch (argc)
    {
    case 1:
-    std::cout << "$ ./complex03 mod(z1) arg(z1) mod(z2) arg(z2)" << std::endl;
-    std::cout << "mod y arg del primer num complejo z1" << std::endl;
-    std::cout << "mod y arg del segundo num complejo z2" << std::endl;    
+    std::cout << " Introduzca mod y arg del primer num complejo : " ;
+    std::cin >> arr[0] >> arr[1] ;
+    newLine();
+    
+    std::cout << " Introduzca mod y arg del segundo num complejo : " ;
+    std::cin >> arr[2] >> arr[3];    
+    newLine();
+   
+    sum_complex(arr[0], arr[1], arr[2], arr[3]);  
     break;
    case 5:
        for(int i = 1; i < argc; i++){        

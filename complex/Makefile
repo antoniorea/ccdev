@@ -3,8 +3,8 @@ INCDIRS=-I.
 OPT=-O3
 FLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT) -std=c++17
 
-CFILES=complex01.cpp cpx.cpp
-OBJECTS=complex01.o cpx.o
+CFILES=complex03.cpp cpx.cpp
+OBJECTS=complex03.o cpx.o
 
 BINARY=complex_sum
 
